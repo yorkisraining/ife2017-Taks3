@@ -1,0 +1,36 @@
+ /*create by rain 2017.2.26*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	position: relative;
+	width: 1200px;
+	height: 650px;
+	margin: 10px auto 0;
+}
+
+li {
+	position: absolute;
+	width: 780px;
+	list-style: none;
+	backface-visibility: visible;
+}
+
+img {
+	width: 100%;
+}
+
+.pic1 {
+	transform: rotateY(0);
+	top: 115px;
+	left: 210px;
+}
+
+.pic2 {
+	transform: rotateY(135deg);
+	top: 165px;
+	left: 210px;
+}

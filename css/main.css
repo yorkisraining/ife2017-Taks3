@@ -1,0 +1,36 @@
+ /* create by rain 2017.2.25 */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.warp {
+	width: 1200px;
+	height: 600px;
+	margin: 50px auto 0;
+	background-color: #000;
+	position: relative;
+}
+
+ul {
+	position: relative;
+}
+
+li {
+	width: 400px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+img {
+	width: 100%;
+}
+
+.pic1 {
+	left: 500px;
+	top: 200px;
+	-webkit-animation: change 10s linear infinite;
+	-webkit-backface-visibility: visible;
+}
